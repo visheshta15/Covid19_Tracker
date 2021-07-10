@@ -1,0 +1,35 @@
+.infoBox{
+    flex: 1;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.infoBox:hover{
+    background-color: #f8e1e1 !important;
+    transform: scale(1.05) !important;
+
+
+}
+.infobox--active{
+    border-bottom: 7px solid #833471;
+    
+}
+
+.infoBox:not(:last-child){
+    margin-right: 15px;
+    
+}
+
+.infoBox__cases{
+    color: #833471;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+}
+
+.infoBox__total{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}

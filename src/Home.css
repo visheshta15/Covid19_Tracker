@@ -1,0 +1,94 @@
+.home__outer{
+    background-color: #e0e2df;
+    height: 100vh;
+    width: 100vw;
+}
+
+.home{
+    
+    background-image: url('image/bg1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: right;
+    position: relative;
+}
+
+
+
+h4{
+    color: rgb(110, 109, 109);
+}
+
+.home__image1{
+    background-image: url('image/mask1.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    outline: none;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.home__image2{
+    background-image: url('image/washHands.jpg');
+    background-repeat: no-repeat;
+    height: 245px;
+    width: 210px;
+    background-size: contain;
+    outline: none;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+}
+
+.home__image4{
+    background-image: url('image/vaccine2.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+    background-size: contain;
+    outline: none;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+
+
+.home__center{
+    position: absolute;
+    top: 520px;
+    left: 160px;
+    cursor: pointer; 
+    transition: 0.5s; 
+}
+
+.home__center:hover{
+    transform: scale(1.1);
+}
+
+.home__link{
+    font-size: 3.5rem !important;
+}
+
+.home__dataInfo{
+    position: absolute;
+    top: 590px;
+    left: 160px;
+
+}
+
+.home__creator{
+    position: absolute;
+    right: 30px;
+    top:700px;
+}

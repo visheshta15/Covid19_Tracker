@@ -1,0 +1,55 @@
+body{
+    background-color: #f5f6fa;
+}
+
+.covidapp{
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.app__heading{
+    /* font-size: 1.1rem !important; */
+    font-weight: 700 !important;
+    transition: 0.4s;
+}
+
+.app__heading:hover{
+    opacity: 0.8 !important;
+    transform: scale(1.1) !important;
+}
+
+
+.app__left{
+    flex: 0.9;
+}
+
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.app__stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 990px){
+    .covidapp{
+        flex-direction: column;
+    }
+}
+
+.app__right{
+    flex: 0.35;
+    margin-left: 30px;
+}
+
+.app__right_graphTitle{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
